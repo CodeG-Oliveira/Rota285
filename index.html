@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Especializados em mecânica pesada na BR-285. Serviços em motores diesel, freios, suspensão e mais.">
+  <title>Rotta 285 Mecânica Pesada</title>
+  <link rel="shortcut icon" href="Imagens/logo preta.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-image: url("fotos/gaiola.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    .cabecalho {
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+    }
+    .cabecalho img {
+      max-width: 250px;
+      height: auto;
+    }
+    .cabecalho p {
+      color: white;
+      font-size: 1.5rem;
+      margin-top: 10px;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+    }
+.sobre {
+  background-color: white;
+  color: black;
+  padding: 1.5rem;  /* igual p-4 */
+  border-radius: 0.25rem; /* igual rounded */
+  box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075); /* igual shadow */
+}
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Cabeçalho -->
+  <div class="cabecalho">
+    <img src="fotos/Logo_preta_semFundo.png" alt="Logo Rotta 285">
+    <p>Mecânica Pesada</p> 
+  </div>
+
+  <!-- Navegação Bootstrap 5 -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Rotta 285</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+          <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+
+    <!-- Serviços -->
+    <section id="servicos" class="mb-5 text-white">
+      <h2 class="mb-4">Serviços</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 border-start border-5 border-danger p-3 shadow-sm">
+            <h3>🔧 Manutenção Diesel</h3>
+            <p>Atendimento completo para motores a diesel com diagnóstico e reparo técnico.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 border-start border-5 border-danger p-3 shadow-sm">
+            <h3>🛠️ Freios e Suspensão</h3>
+            <p>Revisão e troca de componentes essenciais para segurança e estabilidade.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 border-start border-5 border-danger p-3 shadow-sm">
+            <h3>🚛 Endireitamento</h3>
+            <p>Serviço especializado para veículos pesados de todas as marcas e modelos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+<div>
+    <section id="sobre" class="mb-5 sobre">
+  <h2>Sobre</h2>
+  <p>
+    A Rotta 285 Mecânica Pesada é referência em serviços especializados para veículos de grande porte na região de Ijuí e entorno. Com anos de experiência e uma equipe técnica altamente qualificada, oferecemos soluções completas para caminhões, carretas, máquinas agrícolas e equipamentos pesados.
+  </p>
+  <p>
+    Nosso compromisso é garantir a segurança, a eficiência e a durabilidade dos veículos de nossos clientes, atuando em manutenção diesel, freios, suspensão, endireitamento, troca de peças e muito mais. Utilizamos equipamentos modernos e técnicas avançadas para entregar resultados confiáveis e de qualidade.
+  </p>
+  <p>
+    Na Rotta 285, valorizamos o atendimento personalizado, a transparência e o respeito ao cliente, trabalhando para superar expectativas em cada serviço realizado. Seja para manutenções preventivas ou reparos emergenciais, estamos prontos para atender com agilidade e profissionalismo.
+  </p>
+  <p>
+    Confie na Rotta 285 Mecânica Pesada para manter sua frota sempre pronta para rodar com segurança e performance.
+  </p>
+</section>
+
+    </h3>
+</div>
+    <!-- Fotos dos Trabalhos -->
+    <section id="fotos" class="container my-5">
+      <h2 class="text-center mb-4 text-white">Fotos dos Trabalhos</h2>
+      <div class="row g-3">
+        <div class="col-12 col-sm-6 col-md-4">
+          <img src="fotos/Alongemento.jpg" alt="Alongamento" class="img-fluid rounded shadow-sm w-100" style="height: 250px; object-fit: cover;">
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <img src="fotos/Manutenção de diferencial.jpg" alt="Manutenção em Diferencial" class="img-fluid rounded shadow-sm w-100" style="height: 250px; object-fit: cover;">
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <img src="fotos/Solda Pessada.jpg" alt="Solda Pesada" class="img-fluid rounded shadow-sm w-100" style="height: 250px; object-fit: cover;">
+        </div>
+      </div>
+    </section>
+
+   <!-- Contato e Mapa -->
+<section id="contato" class="mb-5 p-4 rounded shadow" style="background-color: white; color: black;">
+  <h2 class="mb-4">Contato e Localização</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <p>📞 <strong>Agendamentos:</strong> (55) 98449-2065</p>
+      <p>📞 <strong>Engenharia (Fenner):</strong> (55) 99938-9684</p>
+      <p>📍 <strong>Endereço:</strong> Rodovia BR 285, Km 460 SN - Ijuí - RS</p>
+      <p>
+  📷 <strong>Instagram:</strong>
+  <a href="https://www.instagram.com/rotta285lemarmolas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
+     target="_blank" 
+     style="text-decoration: none; color: inherit;">
+    <img src="icones/instagram.png" alt="Instagram" width="20" height="20" style="vertical-align: middle; margin-right: 5px;">
+    rotta285lemarmolas
+  </a>
+</p>
+
+    </div>
+    <div class="col-md-8">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1193.9761549988023!2d-53.91504843097251!3d-28.417316623769366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94fc32bc68356f8d%3A0xd506041584c0f7f2!2sLEMAR%20MEC%C3%82NICA%20POSTO%20DE%20MOLAS%20-%20TRUCK%20CENTER!5e1!3m2!1spt-BR!2sbr!4v1747535952358!5m2!1spt-BR!2sbr" 
+        width="100%" height="300" 
+        style="border:1px solid #ccc; border-radius:8px;" 
+        allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </div>
+</section>
+
+
+  </main>
+
+  <!-- Botões WhatsApp -->
+  <a href="https://wa.me/5555984492065" class="btn btn-success position-fixed d-flex align-items-center gap-2" style="bottom: 85px; right: 20px; z-index:999;" target="_blank">
+    <img src="icones/whatsapp.png" alt="WhatsApp" width="28" height="28">
+    <span>Agendamentos</span>
+  </a>
+
+  <a href="https://wa.me/5555999389684" class="btn btn-success position-fixed d-flex align-items-center gap-2" style="bottom: 20px; right: 20px; z-index:999;" target="_blank">
+    <img src="icones/whatsapp.png" alt="WhatsApp" width="28" height="28">
+    <span>Engenharia</span>
+  </a>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2025 Rotta 285 Mecânica Pesada – Todos os direitos reservados.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
